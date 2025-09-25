@@ -1,0 +1,20 @@
+Status_CoachService eq 'TC - SF182 Sent' or Status_CoachService eq 'TC - LMS Closed Out' or Status_CoachService eq 'PM - Draft Agreement to Vendor'
+
+
+div(
+  sub(
+    ticks(formatDateTime(items('For_each_status_coachservice_item')?['EngagementStartDate'], 'yyyy-MM-dd')),
+    ticks('2023-11-12T00:00:00Z')
+  ),
+  864000000000
+)
+
+
+if(
+  equals(
+    items('For_each_status_coachservice_item')?['Status_CoachService']?['Value'],
+    'TC - SF182 Sent'
+  ),
+  items('For_each_status_coachservice_item')?['TrainingCoord']?['Email'],
+  ''
+)

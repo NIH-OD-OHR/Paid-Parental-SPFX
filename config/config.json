@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "ppr-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/ppr/PprWebPart.js",
+          "manifest": "./src/webparts/ppr/PprWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PprWebPartStrings": "lib/webparts/ppr/loc/{locale}.js"
+  }
+}

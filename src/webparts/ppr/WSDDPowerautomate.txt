@@ -1,0 +1,29 @@
+@{div(sub(ticks(items('For_each_status_coachservice_item')?['EngagementStartDate']), ticks(utcNow())), 864000000000)}
+
+
+div(
+  sub(
+    ticks(formatDateTime(items('For_each_status_coachservice_item')?['EngagementStartDate'], 'yyyy-MM-dd')),
+    ticks(utcNow())
+  ),
+  864000000000
+)
+
+
+int(outputs('StatusRules')?[items('For_each_status_coachservice_item')?['Status_CoachService']?['Value']]?['days'])
+
+not(empty()),
+
+
+items('For_each_status_coachservice_item')?['EngagementStartDate']
+
+not(empty(items('For_each_status_coachservice_item')?['EngagementStartDate']))
+
+
+div(
+  sub(
+    ticks(formatDateTime(items('For_each_status_coachservice_item')?['EngagementStartDate'], 'yyyy-MM-dd')),
+    ticks(utcNow())
+  ),
+  864000000000
+)

@@ -1,0 +1,21 @@
+{
+  "TC - SF182 Sent": {
+    "days": 15,
+    "subject": "Reminder to Send SF-182 ",
+    "message_prfx": "The SF-182 for ",
+    "message_sufx": "s coaching agreement has not been sent to the Vendor."
+  },
+  "TC - LMS Closed Out": {
+    "days": 3,
+    "subject": "Reminder to Close Coaching Agreement in LMS",
+    "message_prfx": "The LMS offering for ",
+    "message_sufx": "s coaching agreement needs to be closed out to bill the IC.  Please close promptly after the package start date."
+  },
+  "PM - Draft Agreement to Vendor": {
+    "days": 10,
+    "subject": "Reminder to Send Agreement to Vendor for ",
+    "message_prfx": "Reminder to Send Agreement to Vendor for ",
+    "message_sufx": "s coaching agreement."
+  }
+}
+

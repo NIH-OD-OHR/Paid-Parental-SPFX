@@ -1,0 +1,1 @@
+div(sub(ticks(formatDateTime(items('For_each_status_coachservice_item')?['EngagementStartDate'], 'yyyy-MM-dd')),ticks('2023-11-12T00:00:00Z')),864000000000)

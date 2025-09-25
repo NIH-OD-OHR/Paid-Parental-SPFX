@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "paid-parental-request-client-side-solution",
+    "id": "a863435b-0569-4c1d-8b80-7f5b75ba2ea7",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.21.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "paid-parental-request description"
+      },
+      "longDescription": {
+        "default": "paid-parental-request description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "paid-parental-request Feature",
+        "description": "The feature that activates elements of the paid-parental-request solution.",
+        "id": "fcc09c4e-8d2c-486f-b2a0-d5a9ecc4aa2e",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/paid-parental-request.sppkg"
+  }
+}

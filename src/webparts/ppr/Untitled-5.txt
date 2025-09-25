@@ -1,0 +1,1 @@
+outputs('StatusRules')?[items('For_each_status_coachservice_item')?['Status_CoachService']?['Value']]?['subject']
