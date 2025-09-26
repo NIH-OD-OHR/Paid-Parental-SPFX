@@ -51,7 +51,7 @@ export default class PprWebPart extends BaseClientSideWebPart<IPprWebPartProps> 
   
         <p style="margin-top: 20px;">
           For more information, visit 
-          <a href="https://hr.nih.gov/benefits/leave/paid-parental-leave-ppl" target="_blank">NIH Guide to Parental Leave</a>
+          <a href="https://nih.sharepoint.com/sites/NIH-IntraHR/SitePages/paid-parental-leave-ppl.aspx">NIH Guide to Parental Leave</a>
         </p>
       </div>
     `;
@@ -83,7 +83,7 @@ export default class PprWebPart extends BaseClientSideWebPart<IPprWebPartProps> 
         extraLink = `
           <p style="margin-top: 10px;">
             For more information, visit 
-            <a href="https://hr.nih.gov/benefits/leave/paid-parental-leave-ppl/requesting-process" target="_blank">
+            <a href="https://nih.sharepoint.com/sites/NIH-IntraHR/SitePages/paid-parental-leave-ppl.aspx">
               Process for Requesting Paid Parental Leave
             </a>
           </p>
@@ -126,7 +126,7 @@ export default class PprWebPart extends BaseClientSideWebPart<IPprWebPartProps> 
   
     const notEligibleMessage = `
       You are not eligible for Paid Parental Leave.<br/><br/>
-      Please visit the <a href="https://hr.nih.gov/benefits/leave/paid-parental-leave-ppl" target="_blank">NIH Guide to Parental Leave</a> or <a href="https://hr.nih.gov/benefits/leave/leave-bank" target="_blank">NIH Leave Bank</a> pages for other potential leave options.
+      Please visit the <a href="https://nih.sharepoint.com/sites/NIH-IntraHR/SitePages/paid-parental-leave-ppl.aspx" target="_blank">NIH Guide to Parental Leave</a> or <a href="https://nih.sharepoint.com/sites/NIH-IntraHR/sitepages/leave-bank.aspx">NIH Leave Bank</a> pages for other potential leave options.
     `;
     // <span style="font-size: 20px; color: #FFA000;">&#9888;</span>
     const handleEmployeeTypeChange = (value: string) => {
@@ -141,8 +141,8 @@ export default class PprWebPart extends BaseClientSideWebPart<IPprWebPartProps> 
             <strong>You may be eligible for Paid Parental Leave.</strong><br/><br/>
             Only Title 42 employees hired via the Special Consultants (42 U.S.C. 209(f)); Service Fellows (42 U.S.C. 209(g)); or the Senior Biomedical Research and Biomedical Product Assessment Service (SBRBPAS) (42 U.S.C. 237(b)) authorities, including hires made via other Title 42 authorities under the 21st Century Cures Act are eligible for PPL.<br/><br/>
             If you are a Fellow other than a Federal Title 42 employee in one of the former categories, please refer to the 
-            <a href="https://hr.nih.gov/benefits/leave/paid-parental-leave-ppl" target="_blank">NIH Guide to Parental Leave</a>, 
-            <a href="https://hr.nih.gov/benefits/leave/leave-bank" target="_blank">NIH Leave Bank</a>, or contact your servicing Administrative Officer for other leave options.<br/><br/>
+            <a href="https://nih.sharepoint.com/sites/NIH-IntraHR/sitepages/leave-bank.aspx">NIH Guide to Parental Leave</a>, 
+            <a href="https://nih.sharepoint.com/sites/NIH-IntraHR/SitePages/paid-parental-leave-ppl.aspx">NIH Leave Bank</a>, or contact your servicing Administrative Officer for other leave options.<br/><br/>
             Fellows hired under Title 5 Appointing Authorities may be eligible for PPL, contingent on appointment duration, work schedule, and length of service. Please contact <a href="mailto:WorkFlex@mail.nih.gov">WorkFlex@mail.nih.gov</a> for more information.
           </div>
           `,
